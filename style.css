@@ -1,0 +1,124 @@
+/* Color and fonts */
+
+body {
+	width: 100%;  
+  	background-image: linear-gradient(180deg, #0596de 19%, #10adde 100%);
+	color: #222831;
+	font-family: 'Lora', serif;
+	font-size: 17px; 
+}
+
+h1, h2, h3, h4{
+	font-family: 'Roboto', sans-serif;;
+}
+
+h2, h3, h4{
+	color:#224358;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+h1{
+	color: orange;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight:600;
+	font-size: 16px;
+}
+
+
+/* Custom design with class */
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+
+@media(max-width:760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding:40px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin:20px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-orange {
+	background: linear-gradient(180deg, #ffc164 0%, #f59300 46.12%, #f59300 97.02%);
+	color: white;
+	padding:15px 20px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background: #e98d3A;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 45px;
+	color: rgb(210,210,210);
+}
+
+
+
+/* Custom design with id*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#facebook:hover {
+	color: #0596de;
+}
+
+#instagram:hover {
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
